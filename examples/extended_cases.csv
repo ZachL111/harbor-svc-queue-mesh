@@ -1,0 +1,7 @@
+name,demand,capacity,latency,risk,weight,score,decision,reason
+baseline,60,82,16,14,6,86,review,backend services baseline scenario exercises the review path for bounded failure handling
+pressure,86,72,25,18,10,84,review,backend services pressure scenario exercises the review path for bounded failure handling
+surge,99,100,18,15,14,193,accept,backend services surge scenario keeps the local fixture within the modeled acceptance band
+degraded,65,63,36,29,8,-72,review,backend services degraded scenario exercises the review path for bounded failure handling
+recovery,86,109,20,11,9,173,accept,backend services recovery scenario keeps the local fixture within the modeled acceptance band
+boundary,75,78,26,19,10,59,review,backend services boundary scenario exercises the review path for bounded failure handling
